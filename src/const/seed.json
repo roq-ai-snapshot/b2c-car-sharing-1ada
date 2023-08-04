@@ -1,0 +1,1902 @@
+[
+  {
+    "car_review": [
+      {
+        "id": "8d3e0a83-b5a6-4908-aee2-af3fc8a73ae3",
+        "created_at": "2023-08-03T12:25:52.494Z",
+        "updated_at": "2023-08-03T23:45:14.020Z",
+        "condition": 0.6662734479177743,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "bb5d3f85-bd6d-49a2-85aa-7a6e7993253e",
+        "created_at": "2023-08-03T19:54:28.166Z",
+        "updated_at": "2023-08-03T07:03:20.523Z",
+        "condition": 0.985019579064101,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "e9770e13-b5d7-4927-8da3-2a1f9939c98d",
+        "created_at": "2023-08-03T16:59:12.904Z",
+        "updated_at": "2023-08-03T13:31:19.883Z",
+        "condition": 0.6020575882866979,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "100f45b1-01c4-4c58-937d-8e9f2b7be6f8",
+        "created_at": "2023-08-03T10:58:05.895Z",
+        "updated_at": "2023-08-03T13:00:37.056Z",
+        "condition": 0.08590759499929845,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "9e0023c8-fcaf-41fd-97c0-0e3b8a61d84f",
+        "created_at": "2023-08-03T11:09:05.202Z",
+        "updated_at": "2023-08-03T14:14:24.721Z",
+        "condition": 0.227819315623492,
+        "year": true,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "7941bdd9-c4ff-4fca-94a0-e93725cfdabf",
+        "created_at": "2023-08-03T19:29:19.322Z",
+        "updated_at": "2023-08-03T15:23:30.097Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Great parking facilities",
+        "amount": 11369
+      },
+      {
+        "id": "73738ec5-2eeb-4582-b07c-ad591762e1a0",
+        "created_at": "2023-08-03T22:18:09.465Z",
+        "updated_at": "2023-08-03T11:48:09.932Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Need more parking spaces",
+        "amount": 75972
+      },
+      {
+        "id": "fb4f1134-06f8-4dc2-8521-38dd6a1ca62d",
+        "created_at": "2023-08-03T23:58:46.034Z",
+        "updated_at": "2023-08-04T02:32:59.969Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Parking lot is well-maintained",
+        "amount": 13343
+      },
+      {
+        "id": "77823803-0ac8-4431-b63f-f008dfa1e131",
+        "created_at": "2023-08-04T00:16:33.506Z",
+        "updated_at": "2023-08-03T07:03:04.874Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking signage is unclear",
+        "amount": 7695
+      },
+      {
+        "id": "0060592c-d1db-4b47-8574-2787628cdd5c",
+        "created_at": "2023-08-03T07:20:16.460Z",
+        "updated_at": "2023-08-03T16:04:03.824Z",
+        "parking": "Open Parking E",
+        "note": "Parking is monitored by security",
+        "feedback": "Parking attendants are helpful",
+        "amount": 50929
+      }
+    ],
+    "car": [
+      {
+        "id": "1c0b41a8-6871-4450-a7a4-3bde1c3ff704",
+        "model": "Sedan",
+        "year": 27656,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-04T03:21:13.835Z",
+        "updated_at": "2023-08-03T23:50:00.821Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "06663fb0-c48a-4b23-b724-c529dc558ac7",
+        "model": "SUV",
+        "year": 2333,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T16:11:29.836Z",
+        "updated_at": "2023-08-04T00:06:37.356Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c20e380-1117-4848-bdc3-3a059bf1b883",
+        "model": "Hatchback",
+        "year": 55864,
+        "color": "Black",
+        "status": "Out of Service",
+        "created_at": "2023-08-04T01:05:19.996Z",
+        "updated_at": "2023-08-03T06:05:26.840Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4d1c2658-28b9-4af7-a74a-ff209c952fbb",
+        "model": "Sports Car",
+        "year": 98863,
+        "color": "White",
+        "status": "Maintenance",
+        "created_at": "2023-08-03T23:53:26.731Z",
+        "updated_at": "2023-08-03T15:51:29.702Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2c8621c5-5c6c-420d-b80d-35d34a0ecd05",
+        "model": "Electric Vehicle",
+        "year": 10701,
+        "color": "Silver",
+        "status": "On Loan",
+        "created_at": "2023-08-03T20:59:11.400Z",
+        "updated_at": "2023-08-03T05:59:05.814Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1bd109e6-e83d-4c0b-a19b-2766ef7ea10a",
+        "date": "2023-08-03T06:34:10.902Z",
+        "time": "2023-08-03T22:00:14.926Z",
+        "created_at": "2023-08-03T16:49:44.357Z",
+        "updated_at": "2023-08-03T13:52:19.108Z",
+        "car_id": "2c8621c5-5c6c-420d-b80d-35d34a0ecd05",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2529dcc6-bb1c-4070-99f5-ec9746f7f9be",
+        "date": "2023-08-03T14:42:06.429Z",
+        "time": "2023-08-03T11:20:55.554Z",
+        "created_at": "2023-08-03T07:43:07.041Z",
+        "updated_at": "2023-08-03T06:30:41.952Z",
+        "car_id": "2c8621c5-5c6c-420d-b80d-35d34a0ecd05",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f1ae4ae-d54e-4f6a-b885-830164f5f763",
+        "date": "2023-08-03T10:19:38.789Z",
+        "time": "2023-08-03T11:48:29.435Z",
+        "created_at": "2023-08-03T16:30:13.008Z",
+        "updated_at": "2023-08-03T06:18:18.883Z",
+        "car_id": "06663fb0-c48a-4b23-b724-c529dc558ac7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35db9e01-3e07-472c-8ba1-e220e8b6e51e",
+        "date": "2023-08-03T13:34:31.027Z",
+        "time": "2023-08-03T08:36:01.781Z",
+        "created_at": "2023-08-03T06:01:28.300Z",
+        "updated_at": "2023-08-03T07:56:34.985Z",
+        "car_id": "1c0b41a8-6871-4450-a7a4-3bde1c3ff704",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e15f767c-741a-47ad-8134-34ab5903602b",
+        "date": "2023-08-03T18:54:31.104Z",
+        "time": "2023-08-03T10:49:45.842Z",
+        "created_at": "2023-08-04T03:49:01.709Z",
+        "updated_at": "2023-08-03T21:02:29.978Z",
+        "car_id": "6c20e380-1117-4848-bdc3-3a059bf1b883",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "e315f5b3-fbf3-44b3-a078-cba352926392",
+        "created_at": "2023-08-04T03:38:20.505Z",
+        "updated_at": "2023-08-03T15:45:34.661Z",
+        "condition": 0.07086470467038453,
+        "year": true,
+        "advisor": "John"
+      },
+      {
+        "id": "57a63e12-6e0e-4816-ba4c-16e424a0b580",
+        "created_at": "2023-08-03T18:01:42.885Z",
+        "updated_at": "2023-08-03T17:10:47.394Z",
+        "condition": 0.7794935018755496,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "72287ad7-9fb0-4d52-ad86-68e4a88aff3a",
+        "created_at": "2023-08-03T16:36:49.116Z",
+        "updated_at": "2023-08-03T11:47:13.181Z",
+        "condition": 0.05164334364235401,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "59b993e4-bf17-4f7a-a31f-0c8265f829e7",
+        "created_at": "2023-08-03T22:56:49.332Z",
+        "updated_at": "2023-08-03T12:32:57.135Z",
+        "condition": 0.26915412838570774,
+        "year": true,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "15d034a9-605a-44a5-ad76-3aed1c8eb2c3",
+        "created_at": "2023-08-04T04:03:50.096Z",
+        "updated_at": "2023-08-04T02:19:56.252Z",
+        "condition": 0.6470311137381941,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "0b8695d7-1ffe-4e2e-80be-18af81a33ec7",
+        "created_at": "2023-08-03T22:45:14.798Z",
+        "updated_at": "2023-08-03T15:09:33.541Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 44681
+      },
+      {
+        "id": "af32d16d-4d6e-4e82-ae15-fe12f9268e28",
+        "created_at": "2023-08-04T00:19:33.061Z",
+        "updated_at": "2023-08-04T01:45:36.574Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Insufficient parking spaces",
+        "amount": 22766
+      },
+      {
+        "id": "3b50a1f1-0217-45fd-a3ba-ae15c5b5469c",
+        "created_at": "2023-08-03T13:10:11.337Z",
+        "updated_at": "2023-08-03T19:35:56.461Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Difficult to find parking spots",
+        "amount": 55193
+      },
+      {
+        "id": "01ed3800-6422-4f0c-8181-149800732023",
+        "created_at": "2023-08-03T16:23:00.622Z",
+        "updated_at": "2023-08-03T23:41:46.903Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking available",
+        "feedback": "Parking attendants are helpful",
+        "amount": 78956
+      },
+      {
+        "id": "9e9b8e80-6a02-4166-82f0-05e325a2f7d2",
+        "created_at": "2023-08-03T18:51:18.100Z",
+        "updated_at": "2023-08-03T15:02:27.821Z",
+        "parking": "Open Parking E",
+        "note": "No overnight parking allowed",
+        "feedback": "Need better signage for parking",
+        "amount": 79753
+      }
+    ],
+    "car": [
+      {
+        "id": "cf7b4f3d-4672-4766-9694-80907b4e7fbf",
+        "model": "Sedan",
+        "year": 66388,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T19:15:47.955Z",
+        "updated_at": "2023-08-04T01:33:20.123Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b003b0d2-46e5-4e94-92e9-763b7d7e146a",
+        "model": "SUV",
+        "year": 33938,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T21:28:35.677Z",
+        "updated_at": "2023-08-03T14:31:28.213Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "91921469-ca2b-4b77-aaac-35fd32c3f165",
+        "model": "Hatchback",
+        "year": 1636,
+        "color": "Black",
+        "status": "Out of service",
+        "created_at": "2023-08-03T08:08:27.939Z",
+        "updated_at": "2023-08-04T02:41:04.953Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d5e41dd4-cc55-460a-b634-fb7dabcb117a",
+        "model": "Convertible",
+        "year": 18017,
+        "color": "White",
+        "status": "Maintenance",
+        "created_at": "2023-08-03T16:42:42.854Z",
+        "updated_at": "2023-08-04T03:29:31.632Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8c12bde3-3de5-467e-ae8c-fd59effad2dc",
+        "model": "Electric",
+        "year": 66184,
+        "color": "Silver",
+        "status": "On loan",
+        "created_at": "2023-08-03T17:49:22.318Z",
+        "updated_at": "2023-08-03T17:57:25.136Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "bb9c3f63-3118-4872-80c3-1d7e2a17193a",
+        "date": "2023-08-03T04:29:16.016Z",
+        "time": "2023-08-03T19:56:30.588Z",
+        "created_at": "2023-08-03T16:12:11.670Z",
+        "updated_at": "2023-08-03T20:30:42.946Z",
+        "car_id": "cf7b4f3d-4672-4766-9694-80907b4e7fbf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90f90b23-112c-458e-8948-bc0d9d4e70ad",
+        "date": "2023-08-03T23:55:15.135Z",
+        "time": "2023-08-03T16:11:10.248Z",
+        "created_at": "2023-08-03T04:41:21.213Z",
+        "updated_at": "2023-08-03T18:17:02.759Z",
+        "car_id": "91921469-ca2b-4b77-aaac-35fd32c3f165",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0a79d15-ebc6-49ff-9244-d214d2b43875",
+        "date": "2023-08-04T03:53:54.568Z",
+        "time": "2023-08-03T08:47:41.001Z",
+        "created_at": "2023-08-03T19:39:33.081Z",
+        "updated_at": "2023-08-03T18:30:22.994Z",
+        "car_id": "d5e41dd4-cc55-460a-b634-fb7dabcb117a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bd6623e-1eb2-4808-ac61-098d60b3e42a",
+        "date": "2023-08-03T18:26:57.127Z",
+        "time": "2023-08-03T12:26:20.951Z",
+        "created_at": "2023-08-03T15:26:31.231Z",
+        "updated_at": "2023-08-03T12:41:47.367Z",
+        "car_id": "91921469-ca2b-4b77-aaac-35fd32c3f165",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3598aeea-d992-4540-ab22-a0ee048c3701",
+        "date": "2023-08-03T09:55:24.313Z",
+        "time": "2023-08-03T18:15:11.028Z",
+        "created_at": "2023-08-03T16:33:31.163Z",
+        "updated_at": "2023-08-03T13:20:14.909Z",
+        "car_id": "cf7b4f3d-4672-4766-9694-80907b4e7fbf",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "8694e2b2-1780-4b00-9417-08654ab9d3b0",
+        "created_at": "2023-08-04T04:11:04.295Z",
+        "updated_at": "2023-08-03T12:46:05.186Z",
+        "condition": 0.7570908349007368,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "5bd32426-e10c-46b5-a479-3f1e396e0cde",
+        "created_at": "2023-08-04T04:09:12.782Z",
+        "updated_at": "2023-08-03T06:50:42.255Z",
+        "condition": 0.550931045319885,
+        "year": false,
+        "advisor": "Jane"
+      },
+      {
+        "id": "23e9d860-64a2-4708-a6fa-96c0ff38c9b7",
+        "created_at": "2023-08-03T18:01:35.218Z",
+        "updated_at": "2023-08-03T07:10:21.349Z",
+        "condition": 0.8015042939223349,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "9ca45a87-e30f-4250-86df-ee35e21350cd",
+        "created_at": "2023-08-03T16:12:45.890Z",
+        "updated_at": "2023-08-04T01:18:27.145Z",
+        "condition": 0.6431177747435868,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "d8807d10-879c-4e3d-81b1-c02f75d30831",
+        "created_at": "2023-08-04T03:04:29.911Z",
+        "updated_at": "2023-08-03T17:50:14.329Z",
+        "condition": 0.7887031761929393,
+        "year": true,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "211cdb72-afe9-4501-815c-c757c25a8913",
+        "created_at": "2023-08-03T06:18:41.571Z",
+        "updated_at": "2023-08-03T06:27:38.737Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 66798
+      },
+      {
+        "id": "f942caab-f1cd-40bf-a7f0-75a04fda6ce7",
+        "created_at": "2023-08-03T21:34:13.598Z",
+        "updated_at": "2023-08-03T14:19:32.581Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Insufficient parking spaces",
+        "amount": 99211
+      },
+      {
+        "id": "b8d11454-a3b8-408e-aeae-15ecab1e3f8f",
+        "created_at": "2023-08-04T01:15:30.220Z",
+        "updated_at": "2023-08-03T10:06:51.554Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Difficult to find parking spots",
+        "amount": 711
+      },
+      {
+        "id": "b6ede268-b4f8-4d71-ad4f-217c960cc4a2",
+        "created_at": "2023-08-04T01:27:17.234Z",
+        "updated_at": "2023-08-03T06:49:43.877Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking available",
+        "feedback": "Parking attendants are helpful",
+        "amount": 55979
+      },
+      {
+        "id": "e04db0a3-8d1f-46a1-ba4d-6cfb2abebde5",
+        "created_at": "2023-08-03T12:29:57.881Z",
+        "updated_at": "2023-08-03T15:52:23.751Z",
+        "parking": "Open Parking E",
+        "note": "No overnight parking allowed",
+        "feedback": "Need better signage for parking",
+        "amount": 72099
+      }
+    ],
+    "car": [
+      {
+        "id": "aa6f4e3a-4022-4229-bc47-5d9cd8e1ffc9",
+        "model": "Sedan",
+        "year": 60115,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-04T01:44:24.565Z",
+        "updated_at": "2023-08-03T10:01:03.064Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dee87456-3356-4b09-b412-6204ffe7919b",
+        "model": "SUV",
+        "year": 69514,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T12:20:51.953Z",
+        "updated_at": "2023-08-03T12:21:57.559Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "37ef0fb5-0a89-41c4-84b0-98c8b2f17d21",
+        "model": "Hatchback",
+        "year": 24989,
+        "color": "Black",
+        "status": "Out of service",
+        "created_at": "2023-08-03T20:44:49.496Z",
+        "updated_at": "2023-08-03T10:45:21.126Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0ca85bc4-45bc-40ea-9560-8a3f70ce818d",
+        "model": "Convertible",
+        "year": 207,
+        "color": "White",
+        "status": "Maintenance",
+        "created_at": "2023-08-03T17:02:05.279Z",
+        "updated_at": "2023-08-03T10:31:31.501Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e92e8f23-e841-4157-b876-c5767bf5f72d",
+        "model": "Electric",
+        "year": 23170,
+        "color": "Silver",
+        "status": "On loan",
+        "created_at": "2023-08-03T19:31:39.227Z",
+        "updated_at": "2023-08-03T08:48:20.055Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2059c74c-ce4b-44a4-90f9-fccb65b5c55b",
+        "date": "2023-08-03T23:30:52.116Z",
+        "time": "2023-08-03T06:56:17.184Z",
+        "created_at": "2023-08-04T03:20:59.396Z",
+        "updated_at": "2023-08-03T20:53:18.230Z",
+        "car_id": "aa6f4e3a-4022-4229-bc47-5d9cd8e1ffc9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ec5760d-d464-4c9c-bab2-a56e0c1f3e4f",
+        "date": "2023-08-04T03:53:39.949Z",
+        "time": "2023-08-03T14:09:54.638Z",
+        "created_at": "2023-08-03T10:46:32.382Z",
+        "updated_at": "2023-08-03T19:21:31.593Z",
+        "car_id": "37ef0fb5-0a89-41c4-84b0-98c8b2f17d21",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "545c2a29-bae1-496f-a6dd-cec07542f77f",
+        "date": "2023-08-03T07:34:04.999Z",
+        "time": "2023-08-03T08:06:07.119Z",
+        "created_at": "2023-08-03T15:24:22.440Z",
+        "updated_at": "2023-08-03T21:54:44.749Z",
+        "car_id": "37ef0fb5-0a89-41c4-84b0-98c8b2f17d21",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afd7ac89-d7ea-47ed-a331-dc46892589b8",
+        "date": "2023-08-04T01:44:56.091Z",
+        "time": "2023-08-03T04:48:17.087Z",
+        "created_at": "2023-08-03T17:01:00.246Z",
+        "updated_at": "2023-08-03T08:39:53.933Z",
+        "car_id": "0ca85bc4-45bc-40ea-9560-8a3f70ce818d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4903ce0e-63e1-4a49-87a8-8d2ae807273e",
+        "date": "2023-08-03T22:02:47.941Z",
+        "time": "2023-08-03T08:04:25.395Z",
+        "created_at": "2023-08-03T10:25:06.127Z",
+        "updated_at": "2023-08-04T03:19:09.133Z",
+        "car_id": "0ca85bc4-45bc-40ea-9560-8a3f70ce818d",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "e836174f-81d4-473f-8f1f-19a7f9ae5ee2",
+        "created_at": "2023-08-04T04:12:26.824Z",
+        "updated_at": "2023-08-03T23:24:27.984Z",
+        "condition": 0.48408459266647696,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "22301f6d-48a8-4c36-8698-b202e88d95ab",
+        "created_at": "2023-08-03T17:13:29.879Z",
+        "updated_at": "2023-08-03T16:02:09.223Z",
+        "condition": 0.6958508160896599,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "7d781c8f-17f6-4cc4-abae-7407a0fec936",
+        "created_at": "2023-08-04T00:37:12.836Z",
+        "updated_at": "2023-08-03T06:34:23.193Z",
+        "condition": 0.24643541988916695,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "3e072ab2-e438-4c4e-9108-f354c0c8b9ee",
+        "created_at": "2023-08-03T15:17:19.002Z",
+        "updated_at": "2023-08-03T21:54:33.005Z",
+        "condition": 0.5456892841029912,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "3f59a8cc-92bc-4620-84fe-7986fbf6d9de",
+        "created_at": "2023-08-03T23:06:16.571Z",
+        "updated_at": "2023-08-03T12:02:10.510Z",
+        "condition": 0.9478258534800261,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "f795437e-a4d8-4a21-8689-86a8c3d7ed7e",
+        "created_at": "2023-08-04T00:07:09.369Z",
+        "updated_at": "2023-08-03T12:40:01.866Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Great parking facilities",
+        "amount": 97452
+      },
+      {
+        "id": "6cf6b21b-8d25-4218-990a-c02b53b823d0",
+        "created_at": "2023-08-04T03:48:00.880Z",
+        "updated_at": "2023-08-03T16:22:03.787Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Need more parking spaces",
+        "amount": 7611
+      },
+      {
+        "id": "bdabec17-6a10-4a66-ac73-34233438c166",
+        "created_at": "2023-08-03T15:47:13.767Z",
+        "updated_at": "2023-08-03T22:18:17.210Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Parking lot is well-maintained",
+        "amount": 24216
+      },
+      {
+        "id": "0ac4711a-70a0-4502-8137-b42459768118",
+        "created_at": "2023-08-03T13:15:16.626Z",
+        "updated_at": "2023-08-03T19:37:30.459Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking available",
+        "feedback": "Parking signage needs improvement",
+        "amount": 58808
+      },
+      {
+        "id": "e6662b23-030a-494c-a87e-a4ecd497057f",
+        "created_at": "2023-08-03T15:59:59.005Z",
+        "updated_at": "2023-08-04T00:31:53.796Z",
+        "parking": "Open Parking E",
+        "note": "No overnight parking allowed",
+        "feedback": "Parking attendants are helpful",
+        "amount": 61308
+      }
+    ],
+    "car": [
+      {
+        "id": "1a37afa0-e633-41d1-906c-6bb0cc6731eb",
+        "model": "Sedan",
+        "year": 84952,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T23:38:38.798Z",
+        "updated_at": "2023-08-03T04:29:34.212Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f8d176de-3a33-4b51-8c39-45ba1ea95b32",
+        "model": "SUV",
+        "year": 7407,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T18:46:29.175Z",
+        "updated_at": "2023-08-03T07:07:04.590Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "02b50b1b-cd2b-4ad6-8a44-b04a9750ceb1",
+        "model": "Hatchback",
+        "year": 87162,
+        "color": "Black",
+        "status": "Out of service",
+        "created_at": "2023-08-04T03:08:30.314Z",
+        "updated_at": "2023-08-03T05:38:25.198Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "321f2360-2c7a-4b1d-9209-c910244f5838",
+        "model": "Convertible",
+        "year": 32008,
+        "color": "White",
+        "status": "Maintenance",
+        "created_at": "2023-08-04T02:22:50.785Z",
+        "updated_at": "2023-08-03T07:05:41.728Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "653a8f4d-5676-445d-827a-8c52235535da",
+        "model": "Electric",
+        "year": 1311,
+        "color": "Silver",
+        "status": "On loan",
+        "created_at": "2023-08-04T02:16:57.569Z",
+        "updated_at": "2023-08-03T21:05:27.248Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2a53c81c-d651-46b4-accd-6a070f482f68",
+        "date": "2023-08-03T23:00:39.192Z",
+        "time": "2023-08-03T19:51:08.644Z",
+        "created_at": "2023-08-03T18:35:55.625Z",
+        "updated_at": "2023-08-03T11:03:10.416Z",
+        "car_id": "1a37afa0-e633-41d1-906c-6bb0cc6731eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e41278d2-1205-4a82-bd09-59390c3d4b7f",
+        "date": "2023-08-03T11:43:00.873Z",
+        "time": "2023-08-03T17:02:24.637Z",
+        "created_at": "2023-08-03T19:09:31.577Z",
+        "updated_at": "2023-08-03T16:27:34.364Z",
+        "car_id": "321f2360-2c7a-4b1d-9209-c910244f5838",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "423d3c56-652b-45f7-a146-d0321c4443ec",
+        "date": "2023-08-04T03:18:31.832Z",
+        "time": "2023-08-04T04:22:48.996Z",
+        "created_at": "2023-08-03T06:08:15.991Z",
+        "updated_at": "2023-08-03T18:12:04.172Z",
+        "car_id": "653a8f4d-5676-445d-827a-8c52235535da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0978aa8-204e-4694-a4f7-ed855b94a3e0",
+        "date": "2023-08-03T08:48:55.790Z",
+        "time": "2023-08-03T07:39:42.333Z",
+        "created_at": "2023-08-03T12:55:00.927Z",
+        "updated_at": "2023-08-03T07:33:02.879Z",
+        "car_id": "653a8f4d-5676-445d-827a-8c52235535da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dd9278b-04d8-48d7-929f-cb252e9975e3",
+        "date": "2023-08-03T09:45:14.415Z",
+        "time": "2023-08-03T12:10:45.111Z",
+        "created_at": "2023-08-03T20:29:13.932Z",
+        "updated_at": "2023-08-03T21:02:36.741Z",
+        "car_id": "321f2360-2c7a-4b1d-9209-c910244f5838",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "7134e9ad-af7c-4383-9dd2-c6d92f1eb697",
+        "created_at": "2023-08-03T11:34:30.346Z",
+        "updated_at": "2023-08-04T01:37:26.815Z",
+        "condition": 0.04791582655161619,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "81aecf46-9464-48bb-a63a-64dc72ca814c",
+        "created_at": "2023-08-03T11:06:58.185Z",
+        "updated_at": "2023-08-03T07:23:11.987Z",
+        "condition": 0.8379478668794036,
+        "year": false,
+        "advisor": "Jane"
+      },
+      {
+        "id": "dc883a44-048a-4cb0-9061-33b3b07eb751",
+        "created_at": "2023-08-03T23:21:24.753Z",
+        "updated_at": "2023-08-03T07:56:26.404Z",
+        "condition": 0.8742302702739835,
+        "year": false,
+        "advisor": "Michael"
+      },
+      {
+        "id": "7b9dce44-99f4-4515-bebf-c53069a27895",
+        "created_at": "2023-08-04T04:04:53.941Z",
+        "updated_at": "2023-08-03T13:18:09.775Z",
+        "condition": 0.8697442447301,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "273cd8a4-73e2-4308-8168-86c07363690f",
+        "created_at": "2023-08-03T19:20:08.214Z",
+        "updated_at": "2023-08-04T01:56:37.058Z",
+        "condition": 0.36364191491156816,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "128c2f72-b963-4999-a31b-7f66d8838ea5",
+        "created_at": "2023-08-04T00:11:44.550Z",
+        "updated_at": "2023-08-03T22:46:28.226Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Great parking facilities",
+        "amount": 69878
+      },
+      {
+        "id": "e8e80501-1cec-43fe-b281-ae09263fece7",
+        "created_at": "2023-08-03T15:34:20.312Z",
+        "updated_at": "2023-08-04T03:33:12.119Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Need more parking spaces",
+        "amount": 18420
+      },
+      {
+        "id": "511ca9ba-060d-4973-9009-5078336ff0fe",
+        "created_at": "2023-08-04T03:13:09.785Z",
+        "updated_at": "2023-08-03T07:49:04.133Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Parking lot is well-maintained",
+        "amount": 69128
+      },
+      {
+        "id": "36d59c59-9670-4a0e-8e4e-4867ed86f808",
+        "created_at": "2023-08-04T00:09:34.346Z",
+        "updated_at": "2023-08-03T12:46:44.092Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking available",
+        "feedback": "Parking signage needs improvement",
+        "amount": 4225
+      },
+      {
+        "id": "f6e83697-3abd-4547-bd7c-ff34fe85327b",
+        "created_at": "2023-08-03T10:46:38.203Z",
+        "updated_at": "2023-08-04T00:11:08.900Z",
+        "parking": "Open Parking E",
+        "note": "No overnight parking allowed",
+        "feedback": "Parking attendants are helpful",
+        "amount": 3405
+      }
+    ],
+    "car": [
+      {
+        "id": "0399714d-d35f-41c1-bc61-778957666150",
+        "model": "Sedan",
+        "year": 72127,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T21:10:45.613Z",
+        "updated_at": "2023-08-03T22:38:34.711Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "79343968-f902-480f-b6d9-348b73c93c22",
+        "model": "SUV",
+        "year": 72266,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T13:58:52.096Z",
+        "updated_at": "2023-08-03T20:08:04.329Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "56e5c4e8-4492-4e44-aa1f-25a7fab050be",
+        "model": "Hatchback",
+        "year": 70199,
+        "color": "Black",
+        "status": "Out of service",
+        "created_at": "2023-08-03T17:21:35.442Z",
+        "updated_at": "2023-08-03T04:23:21.781Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c623df24-b52b-4929-9a24-c62da86aeb2d",
+        "model": "Convertible",
+        "year": 25096,
+        "color": "White",
+        "status": "Maintenance",
+        "created_at": "2023-08-03T11:46:25.316Z",
+        "updated_at": "2023-08-04T02:18:07.452Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3bfeedec-2a60-4f07-aa97-70b89fa3e61a",
+        "model": "Electric",
+        "year": 86229,
+        "color": "Silver",
+        "status": "On loan",
+        "created_at": "2023-08-04T00:05:06.738Z",
+        "updated_at": "2023-08-03T21:59:59.110Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "3e7c97ab-afdf-4ad8-8026-fbd0f476c80e",
+        "date": "2023-08-03T05:16:22.369Z",
+        "time": "2023-08-03T13:05:54.943Z",
+        "created_at": "2023-08-03T20:01:50.608Z",
+        "updated_at": "2023-08-03T08:48:26.551Z",
+        "car_id": "56e5c4e8-4492-4e44-aa1f-25a7fab050be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70a5db32-d0d2-4cb6-8940-0f87af45caa5",
+        "date": "2023-08-03T15:52:59.565Z",
+        "time": "2023-08-03T15:40:58.495Z",
+        "created_at": "2023-08-03T20:07:20.025Z",
+        "updated_at": "2023-08-04T02:08:59.840Z",
+        "car_id": "0399714d-d35f-41c1-bc61-778957666150",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ddb0789-679f-4d4f-94b5-ea00d11a44a9",
+        "date": "2023-08-04T01:25:23.110Z",
+        "time": "2023-08-04T03:31:25.922Z",
+        "created_at": "2023-08-03T16:36:50.631Z",
+        "updated_at": "2023-08-04T01:14:37.646Z",
+        "car_id": "3bfeedec-2a60-4f07-aa97-70b89fa3e61a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8477b44-4661-4d55-922a-2809838bd01e",
+        "date": "2023-08-03T11:50:00.129Z",
+        "time": "2023-08-04T01:57:50.422Z",
+        "created_at": "2023-08-04T01:17:30.642Z",
+        "updated_at": "2023-08-03T17:00:56.412Z",
+        "car_id": "c623df24-b52b-4929-9a24-c62da86aeb2d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08fa0cd7-b18e-41f5-ad0b-32b7400a65ed",
+        "date": "2023-08-03T08:59:58.980Z",
+        "time": "2023-08-03T10:50:34.306Z",
+        "created_at": "2023-08-03T15:07:56.989Z",
+        "updated_at": "2023-08-04T02:38:18.834Z",
+        "car_id": "0399714d-d35f-41c1-bc61-778957666150",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "2e80929c-c43a-44f2-b1aa-81dc8e6ab800",
+        "created_at": "2023-08-03T17:40:46.208Z",
+        "updated_at": "2023-08-03T20:57:20.283Z",
+        "condition": 0.5706718326546252,
+        "year": true,
+        "advisor": "John"
+      },
+      {
+        "id": "534e49da-cc6e-4c8c-9305-884999cea31f",
+        "created_at": "2023-08-03T21:25:51.723Z",
+        "updated_at": "2023-08-04T00:04:53.657Z",
+        "condition": 0.677134825848043,
+        "year": false,
+        "advisor": "Jane"
+      },
+      {
+        "id": "280c3770-e8fa-42d8-bd9a-d02264418bbe",
+        "created_at": "2023-08-04T01:48:38.753Z",
+        "updated_at": "2023-08-03T09:04:47.607Z",
+        "condition": 0.17776343040168285,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "0bce9352-4122-482a-a0c4-e2596e9e1582",
+        "created_at": "2023-08-03T08:21:04.027Z",
+        "updated_at": "2023-08-03T16:50:21.627Z",
+        "condition": 0.7014210077468306,
+        "year": true,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "fd048959-286d-407d-9b27-b1c400392f97",
+        "created_at": "2023-08-03T19:14:01.103Z",
+        "updated_at": "2023-08-03T23:19:51.003Z",
+        "condition": 0.7907219538465142,
+        "year": true,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "9c8546e0-2a53-4039-9d88-434f7cd07afb",
+        "created_at": "2023-08-03T07:07:13.071Z",
+        "updated_at": "2023-08-03T09:08:11.780Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Great parking facilities",
+        "amount": 11254
+      },
+      {
+        "id": "627ac8c9-95bd-4a98-aca0-2dc10b458182",
+        "created_at": "2023-08-04T01:25:27.875Z",
+        "updated_at": "2023-08-04T03:08:23.728Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Need more parking spaces",
+        "amount": 26800
+      },
+      {
+        "id": "04685966-5cc0-4e82-b34b-61864b7a28d7",
+        "created_at": "2023-08-03T23:29:20.176Z",
+        "updated_at": "2023-08-04T03:30:42.666Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Parking lot is well-maintained",
+        "amount": 35620
+      },
+      {
+        "id": "e5c9d4fb-4f63-4c4b-b481-2bff1c912c4a",
+        "created_at": "2023-08-03T21:04:18.458Z",
+        "updated_at": "2023-08-03T07:19:57.363Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking available",
+        "feedback": "Parking signage needs improvement",
+        "amount": 51149
+      },
+      {
+        "id": "9f990f30-38db-4ebf-8734-4ea127f1dcae",
+        "created_at": "2023-08-03T08:00:05.452Z",
+        "updated_at": "2023-08-03T22:17:33.369Z",
+        "parking": "Open Parking E",
+        "note": "No overnight parking allowed",
+        "feedback": "Parking attendants are helpful",
+        "amount": 32501
+      }
+    ],
+    "car": [
+      {
+        "id": "7ea98fcb-795f-43f4-be6c-efdf25251df0",
+        "model": "Sedan",
+        "year": 23583,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-04T01:14:00.054Z",
+        "updated_at": "2023-08-03T22:23:49.535Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7357d7ad-0d9f-4e27-b01a-3c3112bd7978",
+        "model": "SUV",
+        "year": 8822,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T17:31:18.884Z",
+        "updated_at": "2023-08-03T14:37:08.046Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8f66df29-4b4b-4f2f-8118-51ae993f125d",
+        "model": "Hatchback",
+        "year": 44033,
+        "color": "Black",
+        "status": "Out of service",
+        "created_at": "2023-08-03T04:47:37.328Z",
+        "updated_at": "2023-08-03T09:31:09.078Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e44acd2-1642-46d0-a2ec-492b7ba935b9",
+        "model": "Convertible",
+        "year": 3904,
+        "color": "White",
+        "status": "Maintenance",
+        "created_at": "2023-08-03T23:49:02.234Z",
+        "updated_at": "2023-08-03T08:02:30.746Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "32445e7b-c4de-42be-a464-32e31c9331a4",
+        "model": "Electric",
+        "year": 61349,
+        "color": "Silver",
+        "status": "On loan",
+        "created_at": "2023-08-04T00:32:59.125Z",
+        "updated_at": "2023-08-04T00:45:27.213Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0e1be75e-73b0-4705-910b-a9f92701356c",
+        "date": "2023-08-03T05:35:47.913Z",
+        "time": "2023-08-03T09:21:47.518Z",
+        "created_at": "2023-08-03T13:05:49.880Z",
+        "updated_at": "2023-08-03T16:52:30.748Z",
+        "car_id": "7ea98fcb-795f-43f4-be6c-efdf25251df0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "256fb541-2736-4819-8b5d-c89c33b1de0d",
+        "date": "2023-08-03T17:30:33.827Z",
+        "time": "2023-08-03T10:42:30.628Z",
+        "created_at": "2023-08-03T06:18:41.427Z",
+        "updated_at": "2023-08-03T06:10:50.397Z",
+        "car_id": "7ea98fcb-795f-43f4-be6c-efdf25251df0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a654f9b9-f46d-499d-a6b9-35b73c5e84f2",
+        "date": "2023-08-04T02:28:31.087Z",
+        "time": "2023-08-03T09:37:13.587Z",
+        "created_at": "2023-08-03T22:57:08.388Z",
+        "updated_at": "2023-08-04T03:54:11.906Z",
+        "car_id": "7357d7ad-0d9f-4e27-b01a-3c3112bd7978",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9c5ee89-6c86-48d6-9c51-43414b832fed",
+        "date": "2023-08-04T02:42:50.767Z",
+        "time": "2023-08-03T15:19:04.144Z",
+        "created_at": "2023-08-03T08:41:10.462Z",
+        "updated_at": "2023-08-03T09:21:25.728Z",
+        "car_id": "7357d7ad-0d9f-4e27-b01a-3c3112bd7978",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bed3d58-7177-490b-a3e1-23189ce1e6ea",
+        "date": "2023-08-03T16:01:23.139Z",
+        "time": "2023-08-04T03:51:13.100Z",
+        "created_at": "2023-08-03T06:57:30.308Z",
+        "updated_at": "2023-08-03T06:59:59.131Z",
+        "car_id": "8f66df29-4b4b-4f2f-8118-51ae993f125d",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "10dcc4a1-2b4a-467d-81de-262df882acff",
+        "created_at": "2023-08-04T02:20:24.021Z",
+        "updated_at": "2023-08-03T12:11:24.264Z",
+        "condition": 0.48908855044282973,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "4bb6380d-3feb-4d5d-b4a9-a3e299d71ac2",
+        "created_at": "2023-08-03T15:04:20.134Z",
+        "updated_at": "2023-08-03T21:11:53.060Z",
+        "condition": 0.40447992109693587,
+        "year": false,
+        "advisor": "Jane"
+      },
+      {
+        "id": "6f5a1522-2df5-427c-b07f-408ab6425ddb",
+        "created_at": "2023-08-03T08:07:38.738Z",
+        "updated_at": "2023-08-03T15:29:10.439Z",
+        "condition": 0.40715563017874956,
+        "year": false,
+        "advisor": "Michael"
+      },
+      {
+        "id": "76da2989-9aea-457d-9418-8b9d25d3171b",
+        "created_at": "2023-08-03T15:17:28.930Z",
+        "updated_at": "2023-08-03T15:27:28.402Z",
+        "condition": 0.06276523252017796,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "5e50e3d8-310a-486a-a265-774f1c1f4d98",
+        "created_at": "2023-08-03T05:15:07.304Z",
+        "updated_at": "2023-08-03T21:35:31.488Z",
+        "condition": 0.30127430777065456,
+        "year": true,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "d2957670-7aa2-4598-90eb-3dee3cc27104",
+        "created_at": "2023-08-03T16:49:22.442Z",
+        "updated_at": "2023-08-03T21:48:08.963Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Great parking facilities",
+        "amount": 44187
+      },
+      {
+        "id": "4bc36b7f-d93e-4686-baee-d61109f86b96",
+        "created_at": "2023-08-04T02:27:37.464Z",
+        "updated_at": "2023-08-03T05:53:28.564Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Improvement needed in parking signage",
+        "amount": 46334
+      },
+      {
+        "id": "14469c77-44f4-488e-8abe-de24543999d9",
+        "created_at": "2023-08-04T00:44:26.511Z",
+        "updated_at": "2023-08-04T00:20:47.209Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 28889
+      },
+      {
+        "id": "55d6e87d-f38c-456c-9b78-dfbd76612e96",
+        "created_at": "2023-08-03T15:36:45.344Z",
+        "updated_at": "2023-08-03T23:20:54.082Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking available",
+        "feedback": "Insufficient parking for peak hours",
+        "amount": 7710
+      },
+      {
+        "id": "1ea9a4ed-376d-46c0-9b49-3192bfa701eb",
+        "created_at": "2023-08-03T06:29:58.308Z",
+        "updated_at": "2023-08-03T15:23:29.306Z",
+        "parking": "Open Parking E",
+        "note": "No overnight parking allowed",
+        "feedback": "Easy access to parking spaces",
+        "amount": 21425
+      }
+    ],
+    "car": [
+      {
+        "id": "7030bf94-bccd-4fbd-8d23-034d6be43e62",
+        "model": "Sedan",
+        "year": 11416,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T22:03:27.195Z",
+        "updated_at": "2023-08-03T12:13:33.371Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c04544bb-e197-401f-a843-c554820be79d",
+        "model": "SUV",
+        "year": 96115,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T18:35:10.593Z",
+        "updated_at": "2023-08-03T07:08:51.516Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3f3a3edc-4415-410b-92f0-c67f95642486",
+        "model": "Hatchback",
+        "year": 864,
+        "color": "Black",
+        "status": "Out of service",
+        "created_at": "2023-08-03T18:35:44.192Z",
+        "updated_at": "2023-08-03T22:29:18.287Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12dd8d82-ebc9-462a-877b-4b76ec6a4321",
+        "model": "Convertible",
+        "year": 77109,
+        "color": "White",
+        "status": "Maintenance in progress",
+        "created_at": "2023-08-04T03:09:26.602Z",
+        "updated_at": "2023-08-03T23:01:39.147Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8b5ab480-54ac-4342-bd9c-53f78cd7b76a",
+        "model": "Electric",
+        "year": 5518,
+        "color": "Silver",
+        "status": "On loan",
+        "created_at": "2023-08-04T03:17:25.766Z",
+        "updated_at": "2023-08-03T08:34:11.745Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "230477c4-f1ab-47ae-9a35-c94c0379c0d0",
+        "date": "2023-08-03T18:07:38.150Z",
+        "time": "2023-08-04T03:25:44.745Z",
+        "created_at": "2023-08-04T02:05:33.198Z",
+        "updated_at": "2023-08-04T01:35:06.337Z",
+        "car_id": "c04544bb-e197-401f-a843-c554820be79d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c45d9d31-0328-49cf-ae86-54d75fd73ca6",
+        "date": "2023-08-03T06:03:13.337Z",
+        "time": "2023-08-04T02:28:15.006Z",
+        "created_at": "2023-08-03T10:30:31.557Z",
+        "updated_at": "2023-08-03T05:07:10.133Z",
+        "car_id": "7030bf94-bccd-4fbd-8d23-034d6be43e62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fd82746-77ac-4077-8e70-27a1ac852405",
+        "date": "2023-08-04T01:17:54.973Z",
+        "time": "2023-08-03T08:58:31.071Z",
+        "created_at": "2023-08-03T04:44:36.271Z",
+        "updated_at": "2023-08-03T20:38:59.631Z",
+        "car_id": "c04544bb-e197-401f-a843-c554820be79d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "604ac690-ff65-4ccd-bf87-3695d839cb87",
+        "date": "2023-08-03T05:38:34.088Z",
+        "time": "2023-08-03T13:35:21.954Z",
+        "created_at": "2023-08-03T11:42:05.481Z",
+        "updated_at": "2023-08-03T13:29:02.166Z",
+        "car_id": "7030bf94-bccd-4fbd-8d23-034d6be43e62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3be60db9-1af0-450b-8cd3-679d38c0197f",
+        "date": "2023-08-03T10:29:12.048Z",
+        "time": "2023-08-04T03:25:26.782Z",
+        "created_at": "2023-08-03T06:58:14.178Z",
+        "updated_at": "2023-08-04T00:32:07.209Z",
+        "car_id": "3f3a3edc-4415-410b-92f0-c67f95642486",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "026086c4-66f3-4635-844b-a66ef6cd6e5c",
+        "created_at": "2023-08-04T00:34:47.562Z",
+        "updated_at": "2023-08-03T16:06:01.922Z",
+        "condition": 0.06047828262671828,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "2601e42a-f6da-47bb-bffe-733a5b1b3d14",
+        "created_at": "2023-08-03T11:38:00.423Z",
+        "updated_at": "2023-08-03T07:47:39.381Z",
+        "condition": 0.14409084455110133,
+        "year": false,
+        "advisor": "Jane"
+      },
+      {
+        "id": "36e48965-8db1-4174-ae0e-451c78078888",
+        "created_at": "2023-08-03T10:26:47.856Z",
+        "updated_at": "2023-08-03T12:55:27.338Z",
+        "condition": 0.8111339136958122,
+        "year": false,
+        "advisor": "Michael"
+      },
+      {
+        "id": "a426e30c-f1c6-4297-a405-ef85650fb5de",
+        "created_at": "2023-08-03T11:11:27.189Z",
+        "updated_at": "2023-08-03T05:12:48.215Z",
+        "condition": 0.6854966173414141,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "8da28dcc-e7fd-4e9e-b94c-19c73bb79f2c",
+        "created_at": "2023-08-03T12:09:56.433Z",
+        "updated_at": "2023-08-03T09:03:56.442Z",
+        "condition": 0.1549779966007918,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "a934a31a-3a64-4134-b13f-8ac7c7a34bba",
+        "created_at": "2023-08-03T22:50:32.304Z",
+        "updated_at": "2023-08-03T05:19:22.459Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Great parking facilities",
+        "amount": 90486
+      },
+      {
+        "id": "bbeb9c0b-539a-4403-b820-81190358b2f8",
+        "created_at": "2023-08-03T04:36:46.995Z",
+        "updated_at": "2023-08-03T23:07:08.020Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Need more parking spaces",
+        "amount": 19864
+      },
+      {
+        "id": "964be326-fda5-4197-b965-d06865604481",
+        "created_at": "2023-08-03T09:26:34.101Z",
+        "updated_at": "2023-08-03T12:00:19.963Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Parking lot is well-maintained",
+        "amount": 98804
+      },
+      {
+        "id": "7b9cd52a-81bc-4548-a5d2-5fa7a4712002",
+        "created_at": "2023-08-04T00:00:12.921Z",
+        "updated_at": "2023-08-03T09:57:56.725Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking available",
+        "feedback": "Parking signage needs improvement",
+        "amount": 62382
+      },
+      {
+        "id": "e7d4b9ed-ef1b-4b2f-a21d-af49c0090fe3",
+        "created_at": "2023-08-03T22:22:57.610Z",
+        "updated_at": "2023-08-03T10:08:40.979Z",
+        "parking": "Open Parking E",
+        "note": "No overnight parking allowed",
+        "feedback": "Parking attendants are helpful",
+        "amount": 50935
+      }
+    ],
+    "car": [
+      {
+        "id": "9ac1bf07-cc9b-498e-8f69-8d9f7a57758c",
+        "model": "Sedan",
+        "year": 37031,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T17:23:12.360Z",
+        "updated_at": "2023-08-03T23:11:08.353Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ac236b42-d998-4308-b2d1-1dd436f2ffbe",
+        "model": "SUV",
+        "year": 44971,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-04T01:23:32.202Z",
+        "updated_at": "2023-08-03T16:35:56.351Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d8167793-7074-4240-afac-87fa2b9f0554",
+        "model": "Hatchback",
+        "year": 35433,
+        "color": "Black",
+        "status": "Out of service",
+        "created_at": "2023-08-03T06:02:41.161Z",
+        "updated_at": "2023-08-03T11:33:54.131Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e3a6e9de-4a7a-4651-8c75-400ce3db53d3",
+        "model": "Convertible",
+        "year": 92072,
+        "color": "White",
+        "status": "Maintenance",
+        "created_at": "2023-08-03T23:21:36.376Z",
+        "updated_at": "2023-08-03T10:49:33.576Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b4868996-d6d5-4fce-a6f8-472132b6322c",
+        "model": "Electric",
+        "year": 34330,
+        "color": "Silver",
+        "status": "On loan",
+        "created_at": "2023-08-03T14:09:26.784Z",
+        "updated_at": "2023-08-03T17:29:33.761Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "da2f7eb2-2c00-475d-9d1b-360db356fa97",
+        "date": "2023-08-04T03:44:50.640Z",
+        "time": "2023-08-04T01:23:45.730Z",
+        "created_at": "2023-08-03T22:29:00.310Z",
+        "updated_at": "2023-08-03T07:38:59.682Z",
+        "car_id": "b4868996-d6d5-4fce-a6f8-472132b6322c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "310eacc1-63fd-4786-9397-53e4a97bcafe",
+        "date": "2023-08-03T20:36:24.354Z",
+        "time": "2023-08-03T07:28:44.817Z",
+        "created_at": "2023-08-03T15:30:42.176Z",
+        "updated_at": "2023-08-03T14:30:02.989Z",
+        "car_id": "d8167793-7074-4240-afac-87fa2b9f0554",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92745a03-cf60-4917-aaeb-47709f2e3827",
+        "date": "2023-08-03T05:35:39.372Z",
+        "time": "2023-08-03T08:47:40.575Z",
+        "created_at": "2023-08-03T12:29:38.986Z",
+        "updated_at": "2023-08-03T10:54:37.543Z",
+        "car_id": "ac236b42-d998-4308-b2d1-1dd436f2ffbe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9eef07d0-232d-4b5f-859d-3b9ff8515305",
+        "date": "2023-08-03T11:57:03.741Z",
+        "time": "2023-08-03T14:43:19.891Z",
+        "created_at": "2023-08-03T12:20:25.478Z",
+        "updated_at": "2023-08-04T02:41:57.879Z",
+        "car_id": "d8167793-7074-4240-afac-87fa2b9f0554",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfc3a647-799e-4eee-8f4a-4689d0846fb0",
+        "date": "2023-08-03T15:49:02.649Z",
+        "time": "2023-08-04T00:14:33.637Z",
+        "created_at": "2023-08-04T02:35:18.254Z",
+        "updated_at": "2023-08-04T01:46:59.008Z",
+        "car_id": "d8167793-7074-4240-afac-87fa2b9f0554",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "67b61c5f-61e9-47e2-8f81-81b9a71b79ac",
+        "created_at": "2023-08-03T05:02:24.436Z",
+        "updated_at": "2023-08-03T09:44:56.408Z",
+        "condition": 0.5116374876815826,
+        "year": true,
+        "advisor": "John"
+      },
+      {
+        "id": "975fa087-a927-4075-95cf-337b964e1cd3",
+        "created_at": "2023-08-03T11:25:40.262Z",
+        "updated_at": "2023-08-03T13:26:04.924Z",
+        "condition": 0.7914191437885165,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "5ef1dd0b-4a5c-46c7-bf1d-15800f5488ad",
+        "created_at": "2023-08-03T07:41:29.372Z",
+        "updated_at": "2023-08-03T17:45:57.737Z",
+        "condition": 0.901367828482762,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "14394814-ffde-4ad3-9375-729017e9cada",
+        "created_at": "2023-08-03T23:57:35.763Z",
+        "updated_at": "2023-08-03T12:21:31.236Z",
+        "condition": 0.8339897287078202,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "5f895935-8031-4306-be40-540a9c01fd17",
+        "created_at": "2023-08-04T03:06:17.735Z",
+        "updated_at": "2023-08-04T01:06:03.286Z",
+        "condition": 0.05943683232180774,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "c32bda29-835f-48f5-892b-71592c4363cf",
+        "created_at": "2023-08-03T16:06:10.200Z",
+        "updated_at": "2023-08-03T08:40:04.040Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Great parking facilities",
+        "amount": 73572
+      },
+      {
+        "id": "7176c074-7b3e-43c6-8f5e-9ae7b50421f8",
+        "created_at": "2023-08-03T14:10:49.461Z",
+        "updated_at": "2023-08-04T03:06:09.672Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Need more parking spaces",
+        "amount": 83114
+      },
+      {
+        "id": "148fd267-12a3-446e-854c-9c47896bd6e1",
+        "created_at": "2023-08-03T07:58:57.088Z",
+        "updated_at": "2023-08-03T13:48:09.480Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Parking lot is well-maintained",
+        "amount": 48745
+      },
+      {
+        "id": "e7455051-04f2-4c0d-90ec-1d0b1ea046af",
+        "created_at": "2023-08-03T13:25:51.831Z",
+        "updated_at": "2023-08-03T04:39:39.797Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking signage is unclear",
+        "amount": 10335
+      },
+      {
+        "id": "b4124fc3-6bc0-496d-97b7-855ae4ba078c",
+        "created_at": "2023-08-04T03:12:33.051Z",
+        "updated_at": "2023-08-03T19:32:04.751Z",
+        "parking": "Open Parking E",
+        "note": "Parking is monitored by security",
+        "feedback": "Parking attendants are helpful",
+        "amount": 8159
+      }
+    ],
+    "car": [
+      {
+        "id": "4384feb4-9401-4905-a08c-412449acf539",
+        "model": "Sedan",
+        "year": 95923,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T05:04:03.533Z",
+        "updated_at": "2023-08-04T02:15:18.443Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cb77ca29-64be-4531-9e2f-cec47007c3c1",
+        "model": "SUV",
+        "year": 85608,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T11:56:49.654Z",
+        "updated_at": "2023-08-04T03:47:00.662Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "456545fc-f897-43ea-8e74-bf0bed71cb29",
+        "model": "Hatchback",
+        "year": 30888,
+        "color": "Black",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T15:06:26.998Z",
+        "updated_at": "2023-08-03T18:37:35.010Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a02302ad-146a-443c-a265-5a4d81671ad5",
+        "model": "Sports Car",
+        "year": 70863,
+        "color": "White",
+        "status": "Maintenance",
+        "created_at": "2023-08-03T17:33:25.659Z",
+        "updated_at": "2023-08-03T23:24:44.840Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9eb4f68c-1686-4cbd-b884-e67557c6c742",
+        "model": "Electric Vehicle",
+        "year": 64083,
+        "color": "Silver",
+        "status": "On Loan",
+        "created_at": "2023-08-04T00:25:56.724Z",
+        "updated_at": "2023-08-04T02:44:15.130Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0144ff82-f017-4a42-9901-3121c32b77b6",
+        "date": "2023-08-03T16:48:50.593Z",
+        "time": "2023-08-03T18:16:37.774Z",
+        "created_at": "2023-08-03T05:19:02.779Z",
+        "updated_at": "2023-08-03T14:22:53.271Z",
+        "car_id": "456545fc-f897-43ea-8e74-bf0bed71cb29",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3dd115d-8d3d-41c0-89b8-423ffc180739",
+        "date": "2023-08-03T22:16:46.553Z",
+        "time": "2023-08-03T13:25:37.911Z",
+        "created_at": "2023-08-03T23:42:00.593Z",
+        "updated_at": "2023-08-03T05:52:03.172Z",
+        "car_id": "456545fc-f897-43ea-8e74-bf0bed71cb29",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fb971db-fcf6-4e00-b662-3714989b33d8",
+        "date": "2023-08-03T04:53:00.222Z",
+        "time": "2023-08-03T14:30:41.632Z",
+        "created_at": "2023-08-03T09:15:56.797Z",
+        "updated_at": "2023-08-03T07:52:24.901Z",
+        "car_id": "456545fc-f897-43ea-8e74-bf0bed71cb29",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c84a998e-5e3b-47b3-902a-f0057c60b2db",
+        "date": "2023-08-03T14:23:45.304Z",
+        "time": "2023-08-03T04:26:51.263Z",
+        "created_at": "2023-08-04T02:50:38.206Z",
+        "updated_at": "2023-08-04T01:09:41.159Z",
+        "car_id": "9eb4f68c-1686-4cbd-b884-e67557c6c742",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c277ae0-a0a6-4125-bc32-5ed4a5ef9a4a",
+        "date": "2023-08-03T07:40:17.990Z",
+        "time": "2023-08-04T04:19:27.891Z",
+        "created_at": "2023-08-03T19:17:40.219Z",
+        "updated_at": "2023-08-04T03:00:27.215Z",
+        "car_id": "a02302ad-146a-443c-a265-5a4d81671ad5",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "e3e4c76b-23ec-40bf-aeb5-56477ac3d8a3",
+        "created_at": "2023-08-03T23:31:45.566Z",
+        "updated_at": "2023-08-03T11:37:46.904Z",
+        "condition": 0.31341037014499307,
+        "year": true,
+        "advisor": "John"
+      },
+      {
+        "id": "2e5a3f72-5ad6-447d-a880-538dac44fbdc",
+        "created_at": "2023-08-03T16:28:32.486Z",
+        "updated_at": "2023-08-03T13:04:17.147Z",
+        "condition": 0.3441150465514511,
+        "year": false,
+        "advisor": "Jane"
+      },
+      {
+        "id": "76ac3a5b-e856-40b0-8e15-fff2f9800154",
+        "created_at": "2023-08-03T11:36:56.333Z",
+        "updated_at": "2023-08-03T16:30:56.432Z",
+        "condition": 0.9389814380556345,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "af5b5810-eb50-447a-b5e6-cb5a35c815e1",
+        "created_at": "2023-08-03T23:55:51.923Z",
+        "updated_at": "2023-08-03T14:20:07.722Z",
+        "condition": 0.9905763084534556,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "d0e7bc3a-c403-400a-8d18-b8b47e90e716",
+        "created_at": "2023-08-03T15:40:26.155Z",
+        "updated_at": "2023-08-03T11:16:45.728Z",
+        "condition": 0.7386152020189911,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "714682d6-0382-4591-b929-7cc023da195a",
+        "created_at": "2023-08-04T02:24:22.057Z",
+        "updated_at": "2023-08-03T23:56:32.671Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 79007
+      },
+      {
+        "id": "385cbcf5-d035-4adf-ba6f-24e863c89ad9",
+        "created_at": "2023-08-03T18:17:45.570Z",
+        "updated_at": "2023-08-03T13:05:34.275Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Insufficient parking spaces",
+        "amount": 56143
+      },
+      {
+        "id": "5ca2ba9a-f1ec-44e1-98c9-eb83a3e31701",
+        "created_at": "2023-08-03T10:48:26.367Z",
+        "updated_at": "2023-08-04T00:25:30.327Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Difficult to find parking spots",
+        "amount": 76298
+      },
+      {
+        "id": "4d5369f3-1188-4b63-babd-4cb361eb128b",
+        "created_at": "2023-08-03T04:41:35.123Z",
+        "updated_at": "2023-08-03T20:00:04.218Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking available",
+        "feedback": "Parking attendants are helpful",
+        "amount": 26398
+      },
+      {
+        "id": "621c2599-280c-42f4-bf15-285f3c1c17f2",
+        "created_at": "2023-08-04T00:37:00.380Z",
+        "updated_at": "2023-08-03T16:11:52.981Z",
+        "parking": "Open Parking E",
+        "note": "No overnight parking allowed",
+        "feedback": "Need better signage for parking",
+        "amount": 55320
+      }
+    ],
+    "car": [
+      {
+        "id": "c4191373-9c19-46e7-866b-9e31b445a579",
+        "model": "Sedan",
+        "year": 5941,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T15:53:04.928Z",
+        "updated_at": "2023-08-04T00:56:14.808Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "169d030d-5021-4963-8b03-7b8339785aa1",
+        "model": "SUV",
+        "year": 19349,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T07:51:04.603Z",
+        "updated_at": "2023-08-03T10:03:14.171Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "76f4f053-b6d6-4224-b6ce-1a5ee4af1536",
+        "model": "Hatchback",
+        "year": 83640,
+        "color": "Black",
+        "status": "Out of service",
+        "created_at": "2023-08-03T07:40:29.433Z",
+        "updated_at": "2023-08-03T23:01:53.431Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e5ea4504-48e6-4908-8df2-29cf8089b98d",
+        "model": "Convertible",
+        "year": 46352,
+        "color": "White",
+        "status": "Maintenance",
+        "created_at": "2023-08-04T02:35:37.465Z",
+        "updated_at": "2023-08-03T18:07:56.952Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4b377c2f-e089-4c6e-9f30-726608bb78ee",
+        "model": "Electric",
+        "year": 66246,
+        "color": "Silver",
+        "status": "On loan",
+        "created_at": "2023-08-03T04:58:06.951Z",
+        "updated_at": "2023-08-03T07:32:31.989Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "e8e7dbf5-5d20-4f54-ac4e-3c3ecb5aee3a",
+        "date": "2023-08-03T07:50:21.263Z",
+        "time": "2023-08-03T18:29:06.765Z",
+        "created_at": "2023-08-04T03:12:11.608Z",
+        "updated_at": "2023-08-03T15:03:19.916Z",
+        "car_id": "c4191373-9c19-46e7-866b-9e31b445a579",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7faf145c-f9a7-439f-b1be-3a42643d07ab",
+        "date": "2023-08-03T21:15:16.383Z",
+        "time": "2023-08-03T07:21:50.412Z",
+        "created_at": "2023-08-03T04:55:52.065Z",
+        "updated_at": "2023-08-03T13:35:30.100Z",
+        "car_id": "c4191373-9c19-46e7-866b-9e31b445a579",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2339f480-d75f-49bf-b408-5beb8844c789",
+        "date": "2023-08-03T23:30:04.545Z",
+        "time": "2023-08-03T22:16:45.675Z",
+        "created_at": "2023-08-03T14:09:10.574Z",
+        "updated_at": "2023-08-03T07:04:41.305Z",
+        "car_id": "169d030d-5021-4963-8b03-7b8339785aa1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b215fe95-7aea-419c-b72f-968162b9e481",
+        "date": "2023-08-03T15:01:15.860Z",
+        "time": "2023-08-03T20:04:08.230Z",
+        "created_at": "2023-08-03T04:39:38.287Z",
+        "updated_at": "2023-08-03T06:42:25.153Z",
+        "car_id": "4b377c2f-e089-4c6e-9f30-726608bb78ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc2aaa63-5f45-405a-a1e6-40baf0d24333",
+        "date": "2023-08-04T04:21:10.020Z",
+        "time": "2023-08-03T17:59:25.073Z",
+        "created_at": "2023-08-03T16:33:25.689Z",
+        "updated_at": "2023-08-03T11:06:26.158Z",
+        "car_id": "169d030d-5021-4963-8b03-7b8339785aa1",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  }
+]
